@@ -1,9 +1,9 @@
 import React from "react";
 
-export const NumberButton = (numberKey) => {
+export const NumberButton = (props) => {
   return (
     <button>
-      {numberKey}
+      {props.numberKey}
     </button>
   );
 };

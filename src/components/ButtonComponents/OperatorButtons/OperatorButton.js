@@ -1,9 +1,9 @@
 import React from "react";
 
-export const OperatorButton = (operatorKey) => {
+export const OperatorButton = (props) => {
   return (
     <button>
-      {operatorKey}
+      {props.operatorKey.char}
     </button>
   );
 };

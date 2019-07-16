@@ -1,9 +1,9 @@
 import React from "react";
 
-export const SpecialButton = (specialKey) => {
+export const SpecialButton = (props) => {
   return (
     <button>
-      {specialKey}
+      {props.specialKey}
     </button>
   );
 };
